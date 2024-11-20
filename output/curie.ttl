@@ -1,0 +1,10 @@
+@prefix ns1: <http://www.semanticweb.org/ontologies/2024/11/curie#> .
+
+ns1:Marie_Curie ns1:hasWon ns1:NobelPrize ;
+    ns1:isMarriedTo ns1:Pierre_Curie ;
+    ns1:isNationality ns1:French,
+        ns1:Polish ;
+    ns1:professorAt ns1:University_of_Paris .
+
+ns1:Pierre_Curie ns1:hasWon ns1:NobelPrize .
+
