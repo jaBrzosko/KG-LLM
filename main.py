@@ -39,7 +39,7 @@ def curie():
     cnc, pnc = op.parse('ontologies/curie.ttl', namespace)
     formatted_ontology = of.format(cnc, pnc, namespace, prefix)
 
-    graph = get_knowledge_graph(formatted_ontology, prefix, text_to_extract)
+    graph = get_knowledge_graph(formatted_ontology, prefix, text_to_extract, v4=True)
     print(graph)
     
     rdf_graph = oap.parse_openai(graph, namespaces)
