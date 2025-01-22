@@ -1,0 +1,278 @@
+@prefix : <http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2/> .
+
+<http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#actedInGenre
+:actedInGenre rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#associatedWithAgency
+:associatedWithAgency rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#bornIn
+:bornIn rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#collaboratedWith
+:collaboratedWith rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#directedBy
+:directedBy rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#featuredIn
+:featuredIn rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#hasAward
+:hasAward rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#hasBiography
+:hasBiography rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#hasFilmography
+:hasFilmography rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#hasGenre
+:hasGenre rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#hasImage
+:hasImage rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#hasNationality
+:hasNationality rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#hasRoleType
+:hasRoleType rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#hasSocialMedia
+:hasSocialMedia rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#marriedTo
+:marriedTo rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#parentOf
+:parentOf rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#playedIn
+:playedIn rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#portrayedCharacter
+:portrayedCharacter rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#produced
+:produced rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#receivedAwardFor
+:receivedAwardFor rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#relatedToMovie
+:relatedToMovie rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#representedBy
+:representedBy rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#starredIn
+:starredIn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#wasAwarded
+:wasAwarded rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#workedWithDirector
+:workedWithDirector rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Actor
+:Actor rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Agency
+:Agency rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Award
+:Award rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#AwardCategory
+:AwardCategory rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Biography
+:Biography rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Character
+:Character rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Child
+:Child rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Collaboration
+:Collaboration rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Director
+:Director rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#FanClub
+:FanClub rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Filmography
+:Filmography rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Genre
+:Genre rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Image
+:Image rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Movie
+:Movie rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Nationality
+:Nationality rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Person
+:Person rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Producer
+:Producer rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#ProductionCompany
+:ProductionCompany rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#ReleaseDate
+:ReleaseDate rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Role
+:Role rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#RoleType
+:RoleType rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#SocialMediaAccount
+:SocialMediaAccount rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#Spouse
+:Spouse rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#TVShow
+:TVShow rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#TalentAgency
+:TalentAgency rdf:type owl:Class .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Actor
+                :Agency
+                :Award
+                :AwardCategory
+                :Biography
+                :Character
+                :Child
+                :Collaboration
+                :Director
+                :FanClub
+                :Filmography
+                :Genre
+                :Image
+                :Movie
+                :Nationality
+                :Person
+                :Producer
+                :ProductionCompany
+                :ReleaseDate
+                :Role
+                :RoleType
+                :SocialMediaAccount
+                :Spouse
+                :TVShow
+                :TalentAgency
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

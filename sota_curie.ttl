@@ -1,0 +1,30 @@
+BASE <http://curie.org/>
+
+PREFIX : <http://curie.org/>
+PREFIX properties: <http://curie.org/properties/>
+PREFIX classes: <http://curie.org/classes/>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cur: <http://www.semanticweb.org/ontologies/2024/11/curie#>
+
+:marieSklodowska a classes:Person, cur:Professor ;
+    rdfs:label "Marie Skłodowska-Curie" ;
+    cur:isNationality "Polish" ;
+    cur:wasBorn "1867-11-07"^^xsd:date ;
+    cur:died "1934-07-04"^^xsd:date ;
+    cur:hasWon :nobelPrize ;
+    cur:isMarriedTo :pierreCurie ;
+    cur:professorAt :sorbonne .
+
+:pierreCurie a classes:Person ;
+    rdfs:label "Pierre Curie" ;
+    cur:hasWon :nobelPrize ;
+    cur:isMarriedTo :marieSklodowska .
+
+:sorbonne a cur:University ;
+    rdfs:label "University of Paris" .
+
+:nobelPrize a cur:NobelPrize .

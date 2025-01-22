@@ -1,0 +1,57 @@
+@prefix ns1: <http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#> .
+@prefix ns2: <http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors/properties> .
+
+<ns1:California> a <Nationality> .
+
+<ns1:ChristopherNolan> a <Director> ;
+    <ns2:directedBy> <ns1:LeonardoDiCaprio> .
+
+<ns1:MartinScorsese> a <Director> ;
+    <ns2:directedBy> <ns1:LeonardoDiCaprio> .
+
+<ns1:AmericanSplendor> a <Movie> .
+
+<ns1:Critters3> a <Movie> .
+
+<ns1:GeorgeDiCaprio> a <Person> ;
+    <ns2:hasGender> "male" ;
+    <ns2:hasRoleType> "father" ;
+    <ns2:produced> <ns1:AmericanSplendor> ;
+    <ns2:representedBy> "comic book titles" .
+
+<ns1:German> a <Nationality> .
+
+<ns1:GrowingPains> a <TVShow> .
+
+<ns1:IrmelinDiCaprio> a <Person> ;
+    <ns2:hasGender> "female" ;
+    <ns2:hasRoleType> "mother" .
+
+<ns1:Italian> a <Nationality> .
+
+<ns1:LosAngeles> a <City> .
+
+<ns1:Romeo+Juliet> a <Movie> .
+
+<ns1:Russian> a <Nationality> .
+
+<ns1:Titanic> a <Movie> .
+
+<ns1:Ukrainian> a <Nationality> .
+
+<ns1:LeonardoDiCaprio> a <Person> ;
+    <ns2:actedIn> <ns1:Critters3>,
+        <ns1:GrowingPains>,
+        <ns1:Romeo+Juliet>,
+        <ns1:Titanic>,
+        "Roseanne",
+        "The New Lassie" ;
+    <ns2:hasNationality> <ns1:German>,
+        <ns1:Italian>,
+        <ns1:Russian>,
+        <ns1:Ukrainian>,
+        "American" ;
+    <ns2:hasParent> <ns1:GeorgeDiCaprio>,
+        <ns1:IrmelinDiCaprio> ;
+    <ns2:wasBornIn> <ns1:LosAngeles> .
+

@@ -1,0 +1,54 @@
+@prefix ns1: <http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors2#> .
+@prefix ns2: <http://www.semanticweb.org/uxeruses/ontologies/2025/0/actors/properties> .
+
+<ns1:#California> a <State> ;
+    <ns2:isLocatedIn> <ns1:#LosAngeles> .
+
+<ns1:#GeorgeDiCaprio> <hasNationality> <ns1:#German>,
+        <ns1:#Italian> ;
+    <ns2:isArtistOf> <ns1:#AmericanSplendor> ;
+    <ns2:isParentOf> <ns1:#LeonardoDiCaprio> .
+
+<ns1:#IrmelinDiCaprio> <hasNationality> <ns1:#German>,
+        <ns1:#Russian>,
+        <ns1:#Ukrainian> ;
+    <ns2:isParentOf> <ns1:#LeonardoDiCaprio> .
+
+<ns1:#Roseanne> a <TVShow> .
+
+<ns1:#TheNewLassie> a <TVShow> .
+
+<ns1:#AmericanSplendor> a <Movie> .
+
+<ns1:#ChristopherNolan> a <Director> .
+
+<ns1:#Critters3> a <Movie> .
+
+<ns1:#GrowingPains> a <TVShow> .
+
+<ns1:#Italian> a <Nationality> .
+
+<ns1:#LosAngeles> a <City> ;
+    <ns2:isBirthPlaceOf> <ns1:#LeonardoDiCaprio> .
+
+<ns1:#MartinScorsese> a <Director> .
+
+<ns1:#RomeoJuliet> a <Movie> .
+
+<ns1:#Russian> a <Nationality> .
+
+<ns1:#Titanic> a <Movie> .
+
+<ns1:#Ukrainian> a <Nationality> .
+
+<ns1:#German> a <Nationality> .
+
+<ns1:#LeonardoDiCaprio> a <Actor> ;
+    <ns2:actedIn> <ns1:#Critters3>,
+        <ns1:#GrowingPains>,
+        <ns1:#RomeoJuliet>,
+        <ns1:#Titanic> ;
+    <ns2:playedRole> "hunky lead actor" ;
+    <ns2:workedWith> <ns1:#ChristopherNolan>,
+        <ns1:#MartinScorsese> .
+

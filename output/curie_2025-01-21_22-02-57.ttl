@@ -1,0 +1,22 @@
+@prefix ns1: <cur:> .
+
+<http://www.semanticweb.org/ontologies/2024/11/curie#Chemistry> a <http://www.semanticweb.org/ontologies/2024/11/curie/NobelPrize> .
+
+<http://www.semanticweb.org/ontologies/2024/11/curie#Physics> a <http://www.semanticweb.org/ontologies/2024/11/curie/NobelPrize> .
+
+<http://www.semanticweb.org/ontologies/2024/11/curie#UniversityofParis> a <http://www.semanticweb.org/ontologies/2024/11/curie/University> ;
+    ns1:professorAt <http://www.semanticweb.org/ontologies/2024/11/curie#MarieCurie> .
+
+<http://www.semanticweb.org/ontologies/2024/11/curie#MarieCurie> a <http://www.semanticweb.org/ontologies/2024/11/curie/Professor> ;
+    ns1:died "4 July 1934" ;
+    ns1:hasWon <http://www.semanticweb.org/ontologies/2024/11/curie#NobelPrize> ;
+    ns1:isMarriedTo <http://www.semanticweb.org/ontologies/2024/11/curie#PierreCurie> ;
+    ns1:isNationality "Polish",
+        "naturalised-French" ;
+    ns1:wasBorn "7 November 1867" .
+
+<http://www.semanticweb.org/ontologies/2024/11/curie#PierreCurie> a <http://www.semanticweb.org/ontologies/2024/11/curie/NobelPrize> ;
+    ns1:hasWon <http://www.semanticweb.org/ontologies/2024/11/curie#NobelPrize> .
+
+<http://www.semanticweb.org/ontologies/2024/11/curie#NobelPrize> a <http://www.semanticweb.org/ontologies/2024/11/curie/Prize> .
+
